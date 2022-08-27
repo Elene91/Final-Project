@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Location</title>
+</head>
+<body>
+    <header>
+        <nav id="nav"> </nav>     
+    </header>
+    <main>
+        <div class="imagelocation">
+                <img src="img/location.png" class="img-fluid" alt="place">
+        <div>
+            <h4> <a href="#"> Our location</a></h4>
+    </main>
+    
+        <div class="footercontainer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5948.875277985524!2d44.82313585654199!3d41.797331828577725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446c4b8958f34b%3A0xf9a41b885e4ff162!2sCity%20Mall%20Gldani!5e0!3m2!1sru!2sge!4v1661534520941!5m2!1sru!2sge" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+          </div>
+          <button class="open-button" onclick="openForm()">Chat</button>
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Archsolution</h1>
+                <label id="msg"><b>Chat us</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+        <p class="rights">
+            &#169;All rights reserved.
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
